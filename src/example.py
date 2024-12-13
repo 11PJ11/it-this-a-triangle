@@ -1,2 +1,4 @@
-def hello_world():
-    return 'Hello, World!'
+def is_triangle(a, b, c):
+    return a + b > c and \
+        c + b > a and \
+        a + c > b
